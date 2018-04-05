@@ -1,0 +1,18 @@
+GIT
+  remote: https://github.com/viniciuszago/testing-multi-gems
+  revision: 4a93121b4506c59f3a47230201f3399d9cbb21df
+  specs:
+    mytestinggem (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mytestinggem!
+
+BUNDLED WITH
+   1.16.1

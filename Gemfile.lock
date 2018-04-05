@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    mytestinggem (0.1.0)
+    mytestinggem2 (0.1.0)
+    testing-multi-gems (0.1)
+      bundler (>= 1.3.0)
+      mytestinggem
+      mytestinggem2
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mytestinggem
+  mytestinggem2
+  testing-multi-gems!
+
+BUNDLED WITH
+   1.16.1

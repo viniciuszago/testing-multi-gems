@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+git 'https://github.com/viniciuszago/testing-multi-gems' do
+  gem 'mytestinggem'
+  # gem 'mytestinggem2'
+end
